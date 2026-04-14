@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.productos {
+    background-color: rgba(203, 243, 240);
+    padding: 40px 60px;
+}
+.productos h2 {
+    text-align: center;
+}
+.productos-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    text-align: center;
+}
+.productos-grid img {
+    height: 150px;
+    animation: flotar 4s ease-in-out infinite;
+    filter: drop-shadow(0 10px 15px black);
+}
+@keyframes flotar {
+    0% {
+        transform: translatey(0px) scale(1);
+    }
+    50% {
+        transform: translatey(-7px) scale(1.03);
+    }
+    100% {
+        transform: translatey(0px) scale(1);
+    }
+}
+.nombre-producto {
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btn-producto {
+    font-size: 20px;
+    background-color: rgba(255, 191, 105);
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    transition: background-color 0.8s ease
+}
+.btn-producto:hover {
+    background-color: brown;
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.que-es-popit {
+    padding: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+.subtitulos {
+    font-size: 2rem;
+    font-weight: bold;;
+}
+.que-es-popit p {
+    margin-top: 10px;
+    font-size: 20px;
+    max-width: 600px;
+    text-align: center;
+}
