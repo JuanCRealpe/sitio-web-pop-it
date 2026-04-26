@@ -25,9 +25,10 @@
     gap: 220px;
     font-size:20px;
 }
-.nav-footer a {
+.footer-container a {
     color: white;
     text-decoration: none;
+    margin-left: 5px;
 }
 .nav-footer a:hover {
     color: red;
