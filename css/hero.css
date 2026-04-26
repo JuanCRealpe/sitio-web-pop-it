@@ -16,6 +16,8 @@
 .hero-text {
     padding-left: 80px;
     padding-bottom: 80px;
+    position: relative;
+    z-index: 2;
 }
 .hero-text h1 {
     font-family: "Archivo Black", sans-serif;
@@ -51,11 +53,17 @@
 .hero-img {
     display: flex;
     justify-content: center;
-    height: 600px;
-    padding-right: 250px;
-    padding-left: 100px;
-    margin-left: 0;
+    height: 550px;
+    padding-right: 300px;
+    margin-left: 5px;
     animation: flotar 4s ease-in-out infinite;
+    max-width: 100px;
+    position: relative;
+    z-index: 1;
+}
+.hero-img img {
+    margin-left: 5px;
+
 }
 @keyframes flotar {
     0% {
