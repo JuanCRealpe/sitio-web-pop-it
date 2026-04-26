@@ -24,19 +24,19 @@
         color: black;
         padding: 15px;
         
-}
+    }
     .reglas-text p {
         margin-top: 20px;
         max-width: 700px;
         color: black;
         font-size: 1.2rem;
-}
+    }
     .reglas-img {
         height: 300px;
         margin-top: 15px;
         padding: 0;
     
-}
+    }
 }
 @media (max-width: 867px) {
     .hero-text h1 {
